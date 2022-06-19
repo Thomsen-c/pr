@@ -1281,6 +1281,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@react-native-async-storage/async-storage@^1.17.6":
+  version "1.17.6"
+  resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/@react-native-async-storage/async-storage/-/async-storage-1.17.6.tgz#ddb3520d051f71698c8a0e79e8959a7bf6d9f43b"
+  integrity sha1-3bNSDQUfcWmMig556JWae/bZ9Ds=
+  dependencies:
+    merge-options "^3.0.4"
+
 "@react-native-community/cli-debugger-ui@^5.0.1":
   version "5.0.1"
   resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-5.0.1.tgz#6b1f3367b8e5211e899983065ea2e72c1901d75f"
@@ -3225,6 +3232,11 @@ is-number@^7.0.0:
   resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
+is-plain-obj@^2.1.0:
+  version "2.1.0"
+  resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
+  integrity sha1-ReQuN/zPH0Dajl927iFRWEDAkoc=
+
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -3659,6 +3671,13 @@ md5-file@^3.2.3:
   integrity sha1-+bzrlB7KIhSkwHJ/XnADFOdw8G8=
   dependencies:
     buffer-alloc "^1.1.0"
+
+merge-options@^3.0.4:
+  version "3.0.4"
+  resolved "https://pkgs.dev.azure.com/CarsonGroupPartners/_packaging/Carson/npm/registry/merge-options/-/merge-options-3.0.4.tgz#84709c2aa2a4b24c1981f66c179fe5565cc6dbb7"
+  integrity sha1-hHCcKqKkskwZgfZsF5/lVlzG27c=
+  dependencies:
+    is-plain-obj "^2.1.0"
 
 merge-stream@^2.0.0:
   version "2.0.0"

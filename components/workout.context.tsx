@@ -1,22 +1,27 @@
-import React, { useState, createContext, useContext } from "react";
+import React, { useState, createContext, ReactNode, SetStateAction } from "react";
 
 
 const defaultWeights = {
-    squatWeight: null,
+    squatWeight: 0,
     setSquatWeight: () => null,
-    benchWeight: null,
+    benchWeight: 0,
     setBenchWeight: () => null,
-    overheadWeight: null,
+    overheadWeight: 0,
     setOverheadWeight: () => null,
-    deadliftWeight: null,
+    deadliftWeight: 0,
     setDeadliftWeight: () => null,
-    rowWeight: null,
+    rowWeight: 0,
     setRowWeight: () => null,
 };
 
+
+interface Props {
+    children?: ReactNode
+}
+
 export const WorkoutContext = createContext(defaultWeights);
 
-export const WorkoutContextProvider = ({ children }) => {
+export const WorkoutContextProvider = ({ children }: Props) => {
     const [squatWeight, setSquatWeight] = useState(0);
     const [benchWeight, setBenchWeight] = useState(0)
     const [overheadWeight, setOverheadWeight] = useState(0);
